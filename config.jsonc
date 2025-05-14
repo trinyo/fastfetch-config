@@ -1,0 +1,138 @@
+{
+  "$schema": "https://raw.githubusercontent.com/fastfetch-cli/fastfetch/dev/schema.json",
+  "colors": {
+    "title": "38;2;255;216;102", // Yellow
+    "keys": "38;2;252;152;103", // Orange
+  },
+  "display": {
+    "separator": ": ",
+  },
+  "logo": {
+    "type": "kitty",
+    "source": "/home/zoll/.config/fastfetch/nobara-v2.png",
+    "width": 40,
+    "height": 20,
+    "preserveAspectRatio": true,
+  },
+  "modules": [
+    {
+      "type": "title",
+      "outputColor": "38;2;255;216;102", // Yellow
+    },
+    {
+      "type": "separator",
+      "output": "--------------------",
+      "outputColor": "38;2;255;97;136", // Red
+    },
+    {
+      "type": "os",
+      "keyColor": "38;2;169;220;118", // Green
+      "outputColor": "38;2;252;252;250", // White
+    },
+    {
+      "type": "host",
+      "keyColor": "38;2;252;152;103", // Orange
+      "outputColor": "38;2;252;252;250", // White
+    },
+    {
+      "type": "kernel",
+      "keyColor": "38;2;120;220;232", // Cyan
+      "outputColor": "38;2;252;252;250", // White
+    },
+    {
+      "type": "uptime",
+      "keyColor": "38;2;255;97;136", // Red
+      "outputColor": "38;2;252;252;250", // White
+    },
+    {
+      "type": "packages",
+      "keyColor": "38;2;255;216;102", // Yellow
+      "outputColor": "38;2;252;252;250", // White
+    },
+    {
+      "type": "shell",
+      "keyColor": "38;2;169;220;118", // Green
+      "outputColor": "38;2;252;252;250", // White
+    },
+    {
+      "type": "display",
+      "keyColor": "38;2;252;152;103", // Orange
+      "outputColor": "38;2;252;252;250", // White
+    },
+    {
+      "type": "de",
+      "keyColor": "38;2;171;157;242", // Purple
+      "outputColor": "38;2;252;252;250", // White
+    },
+    {
+      "type": "wm",
+      "keyColor": "38;2;120;220;232", // Cyan
+      "outputColor": "38;2;252;252;250", // White
+    },
+    {
+      "type": "theme",
+      "keyColor": "38;2;255;97;136", // Red
+      "outputColor": "38;2;252;252;250", // White
+    },
+    {
+      "type": "icons",
+      "keyColor": "38;2;252;152;103", // Orange
+      "outputColor": "38;2;252;252;250", // White
+    },
+    {
+      "type": "font",
+      "keyColor": "38;2;169;220;118", // Green
+      "outputColor": "38;2;252;252;250", // White
+    },
+    {
+      "type": "cursor",
+      "keyColor": "38;2;255;216;102", // Yellow
+      "outputColor": "38;2;252;252;250", // White
+    },
+    {
+      "type": "terminal",
+      "keyColor": "38;2;171;157;242", // Purple
+      "outputColor": "38;2;252;252;250", // White
+    },
+    {
+      "type": "cpu",
+      "keyColor": "38;2;255;97;136", // Red
+      "outputColor": "38;2;252;252;250", // White
+    },
+    {
+      "type": "gpu",
+      "keyColor": "38;2;252;152;103", // Orange
+      "outputColor": "38;2;252;252;250", // White
+    },
+    {
+      "type": "memory",
+      "keyColor": "38;2;120;220;232", // Cyan
+      "outputColor": "38;2;252;252;250", // White
+    },
+    {
+      "type": "swap",
+      "keyColor": "38;2;255;216;102", // Yellow
+      "outputColor": "38;2;252;252;250", // White
+    },
+    {
+      "type": "disk",
+      "keyColor": "38;2;169;220;118", // Green
+      "outputColor": "38;2;252;252;250", // White
+    },
+    {
+      "type": "ip_wlan",
+      "keyColor": "38;2;171;157;242", // Purple
+      "outputColor": "38;2;252;252;250", // White
+    },
+    {
+      "type": "battery",
+      "keyColor": "38;2;255;97;136", // Red
+      "outputColor": "38;2;252;252;250", // White
+    },
+    {
+      "type": "locale",
+      "keyColor": "38;2;120;220;232", // Cyan
+      "outputColor": "38;2;252;252;250", // White
+    },
+  ],
+}
